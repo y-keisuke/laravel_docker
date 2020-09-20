@@ -30,3 +30,5 @@ services:
       - TZ=Asia/Tokyo
     ports:
       - 23306:3306
+    security_opt:
+      - seccomp:unconfined

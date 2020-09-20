@@ -1,3 +1,3 @@
-INSERT INTO usres
+INSERT INTO users
     (name, email, password)
-    VALUES ('test name', 'example@example.com', 'password');
+    VALUES ('test_name', 'example@example.com', '$2y$10$sMIPQPRk58rBOlFqF1LcKe/wdOagyU6CGdV7ZwifLeGc6001AiWra');

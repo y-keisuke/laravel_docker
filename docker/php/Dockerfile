@@ -15,5 +15,3 @@ RUN apt-get update && \
 COPY ./php.ini /usr/local/etc/php/php.ini
 
 WORKDIR /work
-
-RUN chmod -R 777 storage/ bootstrap/cache/
