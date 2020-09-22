@@ -5,5 +5,5 @@
           echo 'DBに保存されたemail：' . $row['email'] . '<br>';
           echo 'DBに保存されたpassword：' . $row['password'] . '<br>';
     }
-    //$user = \App\Models\User::query()->where('name', 'test_name')->first()
 @endphp
+{{ $user }}
