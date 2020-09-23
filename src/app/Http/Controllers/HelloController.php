@@ -9,9 +9,10 @@ class HelloController extends Controller
 {
     public function index()
     {
-        $user = User::query()
-            ->where('name', 'test_name')
-            ->first();
+//        $user = User::query()
+//            ->where('name', 'test_name')
+//            ->first();
+        $user = '';
         return view('index', ['user' => $user]);
     }
 }
